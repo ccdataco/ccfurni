@@ -8,7 +8,7 @@ def mainpage(request):
     responseData = []
     for i in data:
 
-        case = {'img': i.imgFile }
+        case = {'img': str(i.imgFile) }
         responseData.append(case)
 
     return render(request,'mainpage.html',{'responseData':responseData})
