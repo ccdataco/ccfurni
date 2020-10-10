@@ -71,10 +71,14 @@ body{
 		padding-right: 12.5%;
 		padding-top: 90px;
 
-		font: normal normal normal 7px/8px Sitka Small;
+		font: normal normal normal 10px/8px Sitka Small;
 
 		color: #8e7860;
 		opacity: 1;	
+	}
+	.leftAdCompany .businessModels{
+		padding-left: 12.5%;
+		padding-right: 12.5%;
 	}
 	.leftAdCompany .businessCustomer{
 		background: #AC7F46 0% 0% no-repeat padding-box;
@@ -83,12 +87,11 @@ body{
 		position: relative;
 		top: 30px;
 		margin-bottom: 4px;
-		margin-left: 12.5%;
-		margin-right: 12.5%;
+
 		text-align: center;
 		color: white;
 
-		font-size: 7px;
+		font-size: 10px;
 	}
 
 	.rightAdCompany img{
@@ -97,17 +100,16 @@ body{
 
 	}
 	.topProduct h3{
-
-		text-align: left;
-		font: normal normal normal 7px/40px Sitka Small;
+		padding-left: 3.5px;
+		font: normal normal normal 10px/40px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
 		opacity: 1;
+		text-align: left;
 		
 	}
-	.topProduct .card{
-		margin-left: 25px;
-		max-width: 90%;
+	.topProduct .productsImg{
+		text-align: center;
 		
 	}
 	.topProduct .card-title{
@@ -132,15 +134,15 @@ body{
 	}
 
 	.sale #salePromote{
-		margin-left: 25px;
-		width: 90%;
+		
+		width: 100%;
 		height: 5rem;
 		margin-bottom: 25px;
 
 	}
-	.sale .card{
-		margin-left: 25px;
-		max-width: 90%;
+	.sale .saleImgPromote{
+	
+		text-align: center;
 		
 	}
 	.sale .card-title{
@@ -155,11 +157,12 @@ body{
 		height: 200px;
 	}
 
+
 }
 /* screen < 600 is tablet */
 
 
-@media screen and (max-width: 766px) and (min-width: 480px){
+@media screen and (max-width: 768px) and (min-width: 480px){
 	.navbar-brand img{
 		width: 100px;
 		height: 100px;
@@ -221,11 +224,8 @@ body{
 		opacity: 1;
 		
 	}
-	.topProduct .card{
-		margin-left: 25px;
-		max-width: 90%;
-		
-		
+	.topProduct .productsImg{
+		text-align: center;
 	}
 	.topProduct .card-title{
 
@@ -236,8 +236,8 @@ body{
 		font: normal normal normal 20px/8px Sitka Small;
 	}
 	.topProduct img{
-		width: 100%;
-		height: 300px;
+		width: 80%;
+		height: 350px;
 
 	}
 
@@ -253,19 +253,11 @@ body{
 	}
 
 	.sale #salePromote{
-		margin-left: 25px;
-		
-		width: 90%;
-		height: 7rem;
+		text-align: center;
+		width: 80%;
+		height: 5rem;
 		margin-bottom: 25px;
 
-	}
-	.sale .card{
-		margin-left: 25px;
-		max-width: 90%;
-		
-
-		
 	}
 	.sale .card-title{
 
@@ -276,14 +268,18 @@ body{
 		margin-left: 25px;
 		margin-right: 50px;
 	}
+	.sale .saleImgPromote{
+		text-align: center;
+	}
 	.sale .saleImg {
-		width: 100%;
-		height: 300px;
+		width: 80%;
+
+		height: 350px;
 	}
 
 }
 
-@media screen and (max-width: 1440px) and (min-width: 766px){
+@media screen and (max-width: 1440px) and (min-width: 768px){
 	.navbar-brand img{
 		width: 150px;
 		height: 150px;
@@ -345,14 +341,11 @@ body{
 		opacity: 1;
 		
 	}
+	.topProduct .productsImg{
+		text-align: center;
 
-	.topProduct .card{
-		margin-left: 25px;
-		
-		max-width: 75%;
-	
-		
 	}
+
 	.topProduct .card-title{
 
 		text-align: center;
@@ -364,8 +357,8 @@ body{
 		bottom: 20px;
 	}
 	.topProduct img{
-		width: 100%;
-		height: 300px;
+		width: 90%;
+		height: 350px;
 
 	}
 
@@ -380,25 +373,14 @@ body{
 		color: #AC7F46;
 		opacity: 1;
 	}
-
 	.sale #salePromote{
-		margin-left: 25px;
-		
-		
-		width: 92%;
-
-		height: 7rem;
+		text-align: center;
+		width: 97%;
+		height: 10rem;
 		margin-bottom: 25px;
 
 	}
-	.sale .card{
-		margin-left: 25px;
-		
-		max-width: 75%;
-		
 
-		
-	}
 	.sale .card-title{
 		text-align: center;
 		border: 1px #AC7F46;
@@ -409,9 +391,12 @@ body{
 		bottom: 10px;
 	}
 	.sale .saleImg {
-		width: 100%;
+		width: 90%;
 
-		height: 300px;
+		height: 350px;
+	}
+	.sale .saleImgPromote{
+		text-align: center;
 	}
 }
 @media screen and (min-width: 1440px) {
@@ -476,12 +461,8 @@ body{
 		
 	}
 
-	.topProduct .card{
-		margin-left: 45px;
-		
-		max-width: 100%;
-		margin-right: 30px;
-		
+	.topProduct .productsImg{
+		text-align: center;
 	}
 	.topProduct .card-title{
 
@@ -492,7 +473,7 @@ body{
 		font: normal normal normal 30px/10px Sitka Small;
 	}
 	.topProduct img{
-		width: 100%;
+		width: 80%;
 		height: 400px;
 
 	}
@@ -510,21 +491,14 @@ body{
 	}
 
 	.sale #salePromote{
-		margin-left: 45px;
-		
-		
-		width: 94%;
-
+		text-align: center;
+		width: 93.5%;
 		height: 10rem;
 		margin-bottom: 25px;
 
 	}
-	.sale .card{
-		margin-left: 30px;
-		
-		max-width: 100%;
-		margin-right: 30px;
-
+	.sale .saleImgPromote{
+		text-align: center;
 		
 	}
 	.sale .card-title{
@@ -536,7 +510,7 @@ body{
 		font: normal normal normal 30px/10px Sitka Small;
 	}
 	.sale .saleImg {
-		width: 100%;
+		width: 80%;
 		height: 400px;
 	}
 }
