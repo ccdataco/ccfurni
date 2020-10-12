@@ -1,0 +1,109 @@
+
+.menu{
+	width: 100%;
+	height: auto;
+	float: left;
+
+}
+.menuLeft{
+	width: 15%;
+	height: auto;
+	float: left;
+}
+.menuRight{
+	width: 85%;
+	height: auto;
+	float: left;
+}
+/* screen < 480 is smart phone */
+@media screen and (max-width: 480px){
+	.navbar-brand img{
+		width: 80px;
+		height: 80px;
+		text-align: left;
+		position: relative;
+		right: 7px;
+		
+	
+	}
+	.navbar .keywords{
+
+    	color: #707070;
+    	font-size: 12px;
+    	text-align: left;
+        letter-spacing: 0px;
+    	opacity: 1;
+    	font-family: Rockwell;
+    	letter-spacing: 0;
+    	padding: 10px;
+	}
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+	.navbar-brand img{
+		width: 100px;
+		height: 100px;
+		position: relative;
+		
+		left: -8px;
+		
+	
+	}
+	.navbar .keywords{
+
+    	color: #707070;
+    	font-size: 14px;
+    	text-align: left;
+        letter-spacing: 0px;
+    	opacity: 1;
+    	font-family: Rockwell;
+    	letter-spacing: 0;
+    	padding: 10px;
+	}
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 768px){
+	.navbar-brand img{
+		width: 150px;
+		height: 150px;
+		position: relative;
+	
+		left: -11px;
+		
+	
+	}
+	.navbar .keywords{
+
+    	color: #707070;
+    	font-size: 25px;
+    	text-align: left;
+        letter-spacing: 0px;
+    	opacity: 1;
+    	font-family: Rockwell;
+    	letter-spacing: 0;
+    	padding: 5px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.navbar-brand img{
+		width: 200px;
+		height: 200px;
+		position: relative;
+	
+		left: -14px;
+	
+	}
+	.navbar .keywords{
+
+    	color: #707070;
+    	font-size: 35px;
+    	text-align: left;
+        letter-spacing: 0px;
+    	opacity: 1;
+    	font-family: Rockwell;
+    	letter-spacing: 0;
+    	padding: 10px;
+	}
+}

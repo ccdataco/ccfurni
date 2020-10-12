@@ -2,11 +2,13 @@ body{
     width: 100%;
     height: auto;
     float: left;
+   
 }
 .menu{
 	width: 100%;
 	height: auto;
 	float: left;
+
 }
 .menuLeft{
 	width: 15%;
@@ -22,6 +24,7 @@ body{
 	width: 100%;
 	height: auto;
 	float: left;
+
 }
 .topProduct{
 	width: 100%;
@@ -44,41 +47,19 @@ body{
 }	
 /* screen < 480 is smart phone */
 @media screen and (max-width: 480px){
-	.navbar-brand img{
-		width: 50px;
-		height: 50px;
-		
-	
-	}
-	.navbar .keywords{
-
-    	color: #707070;
-    	font-size: 12px;
-    	text-align: left;
-        letter-spacing: 0px;
-    	opacity: 1;
-    	font-family: Rockwell;
-    	letter-spacing: 0;
-    	padding: 10px;
-	}
-
 
 	.leftAdCompany #slogan{
 		text-align: left;	
 
 		border: 1px #AC7F46;
-		padding-left: 12.5%;
-		padding-right: 12.5%;
+		
+	
 		padding-top: 90px;
 
-		font: normal normal normal 10px/8px Sitka Small;
+		font: normal normal normal 7px/8px Sitka Small;
 
 		color: #8e7860;
 		opacity: 1;	
-	}
-	.leftAdCompany .businessModels{
-		padding-left: 12.5%;
-		padding-right: 12.5%;
 	}
 	.leftAdCompany .businessCustomer{
 		background: #AC7F46 0% 0% no-repeat padding-box;
@@ -91,7 +72,7 @@ body{
 		text-align: center;
 		color: white;
 
-		font-size: 10px;
+		font-size: 7px;
 	}
 
 	.rightAdCompany img{
@@ -100,7 +81,7 @@ body{
 
 	}
 	.topProduct h3{
-		padding-left: 3.5px;
+	
 		font: normal normal normal 10px/40px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
@@ -163,30 +144,13 @@ body{
 
 
 @media screen and (max-width: 768px) and (min-width: 480px){
-	.navbar-brand img{
-		width: 100px;
-		height: 100px;
-		
-	
-	}
-	.navbar .keywords{
 
-    	color: #707070;
-    	font-size: 14px;
-    	text-align: left;
-        letter-spacing: 0px;
-    	opacity: 1;
-    	font-family: Rockwell;
-    	letter-spacing: 0;
-    	padding: 10px;
-	}
 
 	.leftAdCompany #slogan{
 		text-align: left;	
 
 		border: 1px #AC7F46;
-		padding-left: 12.5%;
-		padding-right: 12.5%;
+
 		padding-top: 140px;
 
 		font: normal normal normal 12px/12px Sitka Small;
@@ -202,8 +166,7 @@ body{
 		position: relative;
 		top: 50px;
 		margin-bottom: 4px;
-		margin-left: 12.5%;
-		margin-right: 12.5%;
+
 		text-align: center;
 		color: white;
 		/*padding: 1px;*/
@@ -217,7 +180,7 @@ body{
 	.topProduct h3{
 
 		text-align: left;
-		margin-left: 10px;
+	
 		font: normal normal normal 14px/50px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
@@ -236,7 +199,7 @@ body{
 		font: normal normal normal 20px/8px Sitka Small;
 	}
 	.topProduct img{
-		width: 80%;
+		width: 100%;
 		height: 350px;
 
 	}
@@ -245,7 +208,7 @@ body{
 	.sale h3{
 		text-align: left;
 		font: normal normal normal 20px/35px Sitka Small;
-		margin-left: 10px;
+		
 		letter-spacing: 0px;
 		margin-bottom: 10px;
 		color: #AC7F46;
@@ -254,7 +217,7 @@ body{
 
 	.sale #salePromote{
 		text-align: center;
-		width: 80%;
+		width: 100%;
 		height: 5rem;
 		margin-bottom: 25px;
 
@@ -272,7 +235,7 @@ body{
 		text-align: center;
 	}
 	.sale .saleImg {
-		width: 80%;
+		width: 100%;
 
 		height: 350px;
 	}
@@ -280,29 +243,13 @@ body{
 }
 
 @media screen and (max-width: 1440px) and (min-width: 768px){
-	.navbar-brand img{
-		width: 150px;
-		height: 150px;
-		
-	
-	}
-	.navbar .keywords{
 
-    	color: #707070;
-    	font-size: 25px;
-    	text-align: left;
-        letter-spacing: 0px;
-    	opacity: 1;
-    	font-family: Rockwell;
-    	letter-spacing: 0;
-    	padding: 5px;
-	}
+
 	.leftAdCompany #slogan{
 		text-align: left;	
 
 		border: 1px #AC7F46;
-		padding-left: 12.5%;
-		padding-right: 12.5%;
+
 		padding-top: 180px;
 
 		font: normal normal normal 15px/25px Sitka Small;
@@ -318,8 +265,7 @@ body{
 		position: relative;
 		top: 70px;
 		margin-bottom: 4px;
-		margin-left: 12.5%;
-		margin-right: 12.5%;
+
 		text-align: center;
 		color: white;
 		/*padding: 1px;*/
@@ -334,8 +280,8 @@ body{
 
 		text-align: left;
 		margin-top: 25px;
-		margin-left: 15px;
-		font: normal normal normal 15px/50px Sitka Small;
+	
+		font: normal normal normal 20px/50px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
 		opacity: 1;
@@ -352,12 +298,12 @@ body{
 		border: 1px #AC7F46;
 		color:#AC7F46;
 
-		font: normal normal normal 15px/10px Sitka Small;
+		font: normal normal normal 20px/10px Sitka Small;
 		position: relative;
 		bottom: 20px;
 	}
 	.topProduct img{
-		width: 90%;
+		width: 100%;
 		height: 350px;
 
 	}
@@ -365,8 +311,8 @@ body{
 
 	.sale h3{
 		text-align: left;
-		margin-left: 25px;
-		font: normal normal normal 20px/50px Sitka Small;
+	
+		font: normal normal normal 30px/50px Sitka Small;
 
 		letter-spacing: 0px;
 		margin-bottom: 30px;
@@ -375,7 +321,7 @@ body{
 	}
 	.sale #salePromote{
 		text-align: center;
-		width: 97%;
+		width: 100%;
 		height: 10rem;
 		margin-bottom: 25px;
 
@@ -386,12 +332,12 @@ body{
 		border: 1px #AC7F46;
 		color:#AC7F46;
 
-		font: normal normal normal 15px/10px Sitka Small;
+		font: normal normal normal 20px/30px Sitka Small;
 		position: relative;
 		bottom: 10px;
 	}
 	.sale .saleImg {
-		width: 90%;
+		width: 100%;
 
 		height: 350px;
 	}
@@ -400,29 +346,11 @@ body{
 	}
 }
 @media screen and (min-width: 1440px) {
-	.navbar-brand img{
-		width: 200px;
-		height: 200px;
-		
-	
-	}
-	.navbar .keywords{
-
-    	color: #707070;
-    	font-size: 35px;
-    	text-align: left;
-        letter-spacing: 0px;
-    	opacity: 1;
-    	font-family: Rockwell;
-    	letter-spacing: 0;
-    	padding: 10px;
-	}
 	.leftAdCompany #slogan{
 		text-align: left;	
 
 		border: 1px #AC7F46;
-		padding-left: 12.5%;
-		padding-right: 12.5%;
+
 		padding-top: 180px;
 
 		font: normal normal normal 25px/25px Sitka Small;
@@ -438,8 +366,7 @@ body{
 		position: relative;
 		top: 70px;
 		margin-bottom: 4px;
-		margin-left: 12.5%;
-		margin-right: 12.5%;
+
 		text-align: center;
 		color: white;
 		/*padding: 1px;*/
@@ -453,7 +380,6 @@ body{
 	.topProduct h3{
 
 		text-align: left;
-		margin-left: 45px;
 		font: normal normal normal 25px/50px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
@@ -481,7 +407,7 @@ body{
 
 	.sale h3{
 		text-align: left;
-		margin-left: 45px;
+	
 		font: normal normal normal 35px/50px Sitka Small;
 
 		letter-spacing: 0px;
@@ -514,187 +440,3 @@ body{
 		height: 400px;
 	}
 }
-/*@media screen and (max-width: 480px){
-	.menuLeft{
-		width: 15%;
-		height: auto;
-		float: left;
-	
-	}
-	.menuRight{
-
-
-		width: 85%;
-		height: auto;
-		float: left;
-	}
-	.menuLeft img{
-		width: 70px;
-		height:100%;
-	}
-
-	.navbar .nav-link{
-		text-align: center;
-		padding:2px;
-	}
-	.navbar .keywords{
-
-    	color: #707070;
-    	font-size: 10px;
-    	
-    	position: relative;
-    	top: 20px;
-    	letter-spacing: 0px;
-    	opacity: 1;
-    	font-family: Rockwell;
-    	letter-spacing: 0;
-	}
-
-}
-/* screen large of  tablet has vertical, horical */
-/*@media screen and (max-width: 939px) and (min-width: 768px){
-	.menuLeft{
-		width: 15%;
-		height: auto;
-		float: left;
-		}
-	.menuRight{
-		width: 85%;
-		height: auto;
-		float: left;
-	}
-
-	.menuLeft img{
-		width: 140px;
-		height:140px;
-	}
-	.navbar .nav-link{
-		text-align: center;
-		padding:5px;
-	}
-	.navbar .keywords{
-
-    	color: #707070;
-    	font-size: 18px;
-    	
-    	position: relative;
-    	top: 70px;
-    	letter-spacing: 0px;
-    	opacity: 1;
-    	font-family: Rockwell;
-    	letter-spacing: 0;
-	}
-
-}
-@media screen and (max-width: 1024px) and (min-width: 938px){
-	.navbar .nav-link{
-		line-height : 40px;
-	}
-	.menuLeft{
-		width: 15%;
-		height: auto;
-		float: left;
-	}
-	.menuRight{
-		width: 85%;
-		height: auto;
-		float: left;
-	}
-	.menuLeft img{
-		width: 150px;
-		height:150px;
-	}
-	.navbar .nav-link{
-		text-align: left;
-		
-		padding:5px;
-	}
-	.navbar .keywords{
-
-    	color: #707070;
-    	font-size: 24px;
-    	text-align: left;
-    	position: relative;
-    	top: 70px;
-    	letter-spacing: 0px;
-    	opacity: 1;
-    	font-family: Rockwell;
-    	letter-spacing: 0;
-	}
-
-}
-*/
-
-/*
-
-
-.adCompany .leftAdCompany{
-	width: 30%;
-	float: left;
-}
-.leftAdCompany #slogan{
-	text-align: left;	
-	font: normal normal normal 20px/30px Sitka Small;
-	border: 1px #AC7F46;
-	color:#AC7F46;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 220px;
-
-
-}
-.leftAdCompany .businessModels{
-	
-	font: normal normal normal 20px/30px Rockwell;
-	border: 1px #AC7F46;
-	color:white;
-	margin-left: 40px;
-	margin-right:40px;
-	border: 1px solid #AC7F46;
-	background-color: #AC7F46;
-	text-align: center;
-	background: #AC7F46 0% 0% no-repeat padding-box;
-	border: 1px solid #AA8803;
-
-	opacity: 1;
-
-
-}
-.adCompany .rightAdCompany{
-	width: 70%;
-	float: left;
-
-	
-}
-.rightAdCompany img{
-	width: 100%;
-	height: 450px;
-}
-
-.topProduct p{
-	font: normal normal normal 20px/30px Rockwell;
-	color:#AC7F46;	
-	padding-left: 20px;
-	padding-right: 10px;
-	padding-top: 50px;
-}
-.topProduct .card{
-	margin-top: 20px;
-	float: right;
-}
-.topProduct .card-title{
-	text-align: center;
-	border: 1px #AC7F46;
-	color:#AC7F46;
-}
-
-.sale p{
-	font: normal normal normal 20px/30px Rockwell;
-	color:#AC7F46;	
-	padding-left: 20px;
-	padding-right: 10px;
-	padding-top: 50px;
-}
-.sale img{
-	padding-left: 75px;
-}*/

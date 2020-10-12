@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+    height: auto;
+    float: left;
+   
+}
+.productsBrand{
+	width: 100%;
+	float: left;
+
+}
+/* screen < 480 is smart phone */
+@media screen and (max-width: 480px){
+
+/*	.materials .rightMaterials{
+		background: #AC7F46;
+		border: 1px solid #AC7F46;
+		opacity: 1;
+	}*/
+
+
+}
+/* screen < 600 is tablet */
+
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+}
+
+@media screen and (max-width: 1440px) and (min-width: 768px){
+	.productsBrand img{
+		width: 75%;
+		float: right;
+		height: 100px;
+		position: relative;
+		top: -40px;
+	}
+
+
+
+
+}
+@media screen and (min-width: 1440px) {
+}
