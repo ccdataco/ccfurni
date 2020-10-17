@@ -4,6 +4,7 @@
 	height: auto;
 	float: left;
 
+
 }
 .menuLeft{
 	width: 15%;
@@ -14,6 +15,7 @@
 	width: 85%;
 	height: auto;
 	float: left;
+
 }
 /* screen < 480 is smart phone */
 @media screen and (max-width: 480px){
@@ -23,7 +25,8 @@
 		text-align: left;
 		position: relative;
 		right: 7px;
-		
+		float: right;
+
 	
 	}
 	.navbar .keywords{
@@ -42,8 +45,8 @@
 
 @media screen and (max-width: 768px) and (min-width: 480px){
 	.navbar-brand img{
-		width: 100px;
-		height: 100px;
+		width: 150px;
+		height: 150px;
 		position: relative;
 		
 		left: -8px;
@@ -66,44 +69,115 @@
 
 @media screen and (max-width: 1440px) and (min-width: 768px){
 	.navbar-brand img{
-		width: 150px;
-		height: 150px;
+		width: 180px;
+		height: 180px;
 		position: relative;
-	
-		left: -11px;
-		
+		top: 35px;
+		opacity: 1;
+
+/*		left: -14px;
+*/
+
 	
 	}
-	.navbar .keywords{
+	.navbar .nav-item{
+		padding-left: 5px;
+	}
 
+	.navbar .keywords{
     	color: #707070;
-    	font-size: 25px;
+    	font: normal normal normal 2.3vw/47px Rockwell;
+    
     	text-align: left;
         letter-spacing: 0px;
     	opacity: 1;
     	font-family: Rockwell;
     	letter-spacing: 0;
-    	padding: 5px;
+    	padding: 35px;
+    	position: relative;
+    	left: 20px;
+    
+    	
+    	
 	}
 }
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1740px) and (min-width: 1440px){
 	.navbar-brand img{
 		width: 200px;
 		height: 200px;
 		position: relative;
-	
-		left: -14px;
+		top: 35px;
+		opacity: 1;
+
+/*		left: -14px;
+*/
+
 	
 	}
+	.navbar .nav-item{
+	
+	}
+
 	.navbar .keywords{
+		/*font-size: 2vw;*/
+
+
+
 
     	color: #707070;
-    	font-size: 35px;
+    	font: normal normal normal 2.1vw/47px Rockwell;
+    
     	text-align: left;
         letter-spacing: 0px;
     	opacity: 1;
     	font-family: Rockwell;
     	letter-spacing: 0;
-    	padding: 10px;
+    	padding: 70px;
+    	position: relative;
+    	left: 20px;
+    
+    	
+    	
+	}
+}
+@media screen and (min-width: 1740px) {
+
+
+	.navbar-brand img{
+		width: 250px;
+		height: 250px;
+		position: relative;
+		top: 35px;
+		opacity: 1;
+
+/*		left: -14px;
+*/
+
+	
+	}
+	.navbar .nav-items{
+		padding: 80px;
+
+
+
+	}
+
+	.navbar .keywords{
+		/*font-size: 2vw;*/
+
+
+
+    	color: #707070;
+    	font: normal normal normal 2.2vw/47px Rockwell;
+    
+    	text-align: left;
+        letter-spacing: 0px;
+    	opacity: 1;
+    	font-family: Rockwell;
+    	letter-spacing: 0;
+    	padding: 75px;
+    	
+    	
+    	
 	}
 }

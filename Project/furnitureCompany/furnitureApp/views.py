@@ -11,3 +11,5 @@ def products(request):
     return render(request,'page/products.html')
 def rooms(request):
     return render(request,'page/rooms.html')
+def forB2BCustomer(request):
+    return render(request,'page/forB2BCustomer.html')

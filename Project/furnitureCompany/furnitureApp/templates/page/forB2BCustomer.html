@@ -1,14 +1,4 @@
-{% url '' as home %}
-{% url 'about_us' as about_us %}
-{% url 'products' as product %}
-{% url 'rooms' as room %}
-{% url 'sale' as sale %}
-{% url 'for_b2bc' as forB2BC %}
-{% url 'cart' as cart%}
-{% url 'account' as account %}
-
 {% load static %}
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -31,7 +21,7 @@
               <p id="slogan"><b>Slogan or Short introduction here bla bla bla</b></p>
               <div class="businessModels">
                 <p class="businessCustomer"><b>For B2C Customer</b></p>
-                <p class="businessCustomer"><b>For B2B Customer</b></p>
+               
               </div>
         </div>
       </div>
@@ -39,7 +29,13 @@
          <img class="img-fuild" src="{%static 'data_company/page/mainpage/mainpage.jpg'%}">
       </div>
     </div>
-
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-4">Cert 1</div>
+          <div class="col-md-4">Cert 2</div>
+          <div class="col-md-4">Cert 3</div>
+      </div>
+    </div>
     <div class="topProduct container-fluid">
       <div class="row">
         <div class="col-md-12">
