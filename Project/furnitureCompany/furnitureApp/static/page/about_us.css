@@ -38,7 +38,8 @@ body{
 @media screen and (max-width: 480px) and (min-width: 280px){
 
 	.infoCompany .promtionCompany{
-		width: 100%;	
+		width: 100%;
+		height: 200px;	
 	
 
 	}
@@ -209,43 +210,37 @@ body{
 		
 		
 		padding: 20px;
-		
-		
-	}
-	.materials .flyWood{
-/*	
-		width: 30%;
-		background: #111010 0% 0% no-repeat padding-box;
-		border: 1px solid #707070;
-		opacity: 1;
-	
 		position: relative;
-		top: -60px;
-		left: 280px;
-*/
+		top: -20px;
+		
+		
 	}
 	.materials .flyWood p{
-		color: white;
 		text-align: center;
-		padding: 10px;
-
-	
-
-		font: italic normal bold 30px Sitka Small;
+		font: italic normal bold 20px/20px Sitka Small;
 		letter-spacing: 1.26px;
 		color: #FBF4EA;
 		opacity: 1;
+		padding: 15px;
 
+		background: black;
+		border: 1px solid black;
+
+		position: relative;
+		top: -55px;
+		
 	}
+
 	.materials .components{
 		padding-top: 10px;
-		padding-bottom: 20px;
 		padding-left: 5px;
 
 		
 	}
 
 	.materials #para{
+		position: relative;
+		top: -80px;
 
 		padding: 20px;
 
@@ -330,47 +325,48 @@ body{
 		/*margin-right: 40px;*/
 
 		position: relative;
-		right: 40px;
+		right: 20px;
 	}
 	.materials #content p{
 		background: #AC7F46 0% 0% no-repeat padding-box;
 		border: 1px solid #AC7F46;
 		text-align: left;
-		font: italic normal bold 10px/25px Sitka Small;
+		font: italic normal bold 12px/18px Sitka Small;
 		letter-spacing: 0.06px;
 		color: #FBF4EA;
 		opacity: 1;
 		height: 200px;
-		width: 110%;
 		
 		
-		padding: 20px;
+		
+		padding: 25px;
 		
 		
 	}
 	.materials .flyWood{
-/*	
-		width: 30%;
-		background: #111010 0% 0% no-repeat padding-box;
-		border: 1px solid #707070;
-		opacity: 1;
-	
-		position: relative;
-		top: -60px;
-		left: 280px;
-*/
+
+
 	}
 	.materials .flyWood p{
-		color: white;
 		text-align: center;
-		padding: 10px;
-
-	
-
-		font: italic normal bold 30px Sitka Small;
+		font: italic normal bold 20px/20px Sitka Small;
 		letter-spacing: 1.26px;
 		color: #FBF4EA;
 		opacity: 1;
+		padding: 15px;
+
+		background: black;
+		border: 1px solid black;
+		margin-right: 170px;
+		margin-left: 170px;
+		position: relative;
+		top: -40px;
+		left: -30px;
+
+
+
+
+
 
 	}
 	.materials .components{
@@ -381,15 +377,18 @@ body{
 	}
 
 	.materials #para{
-
+		position: relative;
+		top: -90px;
 		padding: 20px;
+
 
 		border:1px solid black;
 		text-align: left;
-		font: normal normal normal 10px/20px Sitka Small;
+		font: normal normal normal 15px/20px Sitka Small;
 		letter-spacing: 0.06px;
 		color: #0F0A03;
-		opacity: 1;
+		margin-right: 20px;
+
 
 		
 	}
@@ -425,8 +424,8 @@ body{
 
 	.infoCompany .promtionCompany{
 		width: 100%;
-		padding-left: 12%;
-		padding-right: 12%;
+		padding-left: 8%;
+		padding-right: 8%;
 	}
 	.materials h3{
 		text-align: left;
@@ -439,7 +438,7 @@ body{
 		left: 17px;
 	}
 	.materials .cardMaterial{
-		max-width: 95%;
+		max-width: 100%;
 		opacity: 1;
 		height: 300px;
 
@@ -456,66 +455,64 @@ body{
 	
 	}
 	.materials .components{
-		padding: 30px;
+		padding: 15px;
 	}
 
 	.materials #content{
 		
 		position: relative;
-		right: 30px;
+		right: 20px;
 
 	}
 	.materials #content p{
 		background: #AC7F46 0% 0% no-repeat padding-box;
 		border: 1px solid #AC7F46;
 		text-align: left;
-		font: italic normal bold 15px/25px Sitka Small;
+		font: italic normal bold 20px/25px Sitka Small;
 		letter-spacing: 0.06px;
 		color: #FBF4EA;
 		opacity: 1;
 	
-		width: 100%;
-		padding: 42px;
+
+		padding: 25px;
 		height: 300px;
 
 		
 		
 	}
-	.materials .flyWood{
-/*	
-		width: 30%;
-		background: #111010 0% 0% no-repeat padding-box;
-		border: 1px solid #707070;
-		opacity: 1;
-	
-		position: relative;
-		top: -60px;
-		left: 280px;
-*/
-	}
 	.materials .flyWood p{
-		color: white;
 		text-align: center;
-		padding: 10px;
-	
-
-		font: italic normal bold 30px Sitka Small;
+		font: italic normal bold 20px/20px Sitka Small;
 		letter-spacing: 1.26px;
 		color: #FBF4EA;
 		opacity: 1;
+		padding: 15px;
 
+		background: black;
+		border: 1px solid black;
+
+		position: relative;
+		top: -55px;
+		left: -80px;
+		margin-right: 280px;
+		margin-left: 280px;
+		
 	}
+
 	.materials #para{
+		position: relative;
+		top: -120px;
 
 		padding: 40px;
 
 		border:1px solid black;
 		text-align: left;
-		font: normal normal normal 25px/40px Sitka Small;
+		font: normal normal normal 20px/25px Sitka Small;
 		letter-spacing: 0.06px;
 		color: #0F0A03;
 		opacity: 1;
-		width: 93%;
+		margin-right: 20px;
+		
 	}
 	.production h3{
 		text-align: left;
@@ -548,8 +545,8 @@ body{
 
 	.infoCompany .promtionCompany{
 		width: 100%;
-		padding-left: 12%;
-		padding-right: 12%;
+		padding-left: 8%;
+		padding-right: 8%;
 	}
 	.materials h3{
 		text-align: left;
@@ -569,7 +566,7 @@ body{
 	
 	}
 	.materials .components{
-		padding: 30px;
+		padding: 20px;
 	}
 	.materials .cardMaterial{
 		
@@ -589,50 +586,47 @@ body{
 		background: #AC7F46 0% 0% no-repeat padding-box;
 		border: 1px solid #AC7F46;
 		text-align: left;
-		font: italic normal bold 25px/42px Sitka Small;
+		font: italic normal bold 30px/35px Sitka Small;
 		letter-spacing: 0.06px;
 		color: #FBF4EA;
 		opacity: 1;
-		width: 94.5%;
+		
 		padding: 70px;
 		height: 100%;
 		
 	}
-	.materials .flyWood{
-	
-		width: 30%;
-		background: #111010 0% 0% no-repeat padding-box;
-		border: 1px solid #707070;
-		opacity: 1;
-	
-		position: relative;
-		top: -60px;
-		left: 280px;
-
-	}
 	.materials .flyWood p{
-		color: white;
 		text-align: center;
-		padding: 10px;
-	
-
-		font: italic normal bold 30px Sitka Small;
+		font: italic normal bold 30px/20px Sitka Small;
 		letter-spacing: 1.26px;
 		color: #FBF4EA;
 		opacity: 1;
+		padding: 30px;
 
+		background: black;
+		border: 1px solid black;
+
+		position: relative;
+		top: -85px;
+		left: -80px;
+		margin-right: 400px;
+		margin-left: 400px;
+		
 	}
+
 	.materials #para{
 
 		padding: 40px;
-
+		position: relative;
+		top: -170px;
 		border:1px solid black;
 		text-align: left;
-		font: normal normal normal 30px/60px Sitka Small;
+		font: normal normal normal 30px/35px Sitka Small;
 		letter-spacing: 0.06px;
 		color: #0F0A03;
 		opacity: 1;
-		width: 95.5%;
+		margin-right: 15px;
+		
 	}
 	.production h3{
 		text-align: left;
@@ -720,31 +714,27 @@ body{
 		height: 100%;
 		
 	}
-/*	.materials .flyWood{
-	
-		width: 30%;
-		background: #111010 0% 0% no-repeat padding-box;
-		border: 1px solid #707070;
-		opacity: 1;
-	
-		position: relative;
-		top: -60px;
-		left: 280px;
-
-	}
 	.materials .flyWood p{
-		color: white;
 		text-align: center;
-		padding: 10px;
-	
-
-		font: italic normal bold 30px Sitka Small;
+		font: italic normal bold 30px/20px Sitka Small;
 		letter-spacing: 1.26px;
 		color: #FBF4EA;
 		opacity: 1;
+		padding: 30px;
 
-	}*/
+		background: black;
+		border: 1px solid black;
+
+		position: relative;
+		top: -85px;
+		left: -80px;
+		margin-right: 470px;
+		margin-left: 470px;
+		
+	}	
 	.materials #para{
+		position: relative;
+		top: -180px;
 
 		padding: 40px;
 
