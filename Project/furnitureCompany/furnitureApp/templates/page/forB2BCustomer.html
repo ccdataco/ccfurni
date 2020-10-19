@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="//db.onlinewebfonts.com/c/4cac62b9f31046456d6fa8a29b0d9462?family=Sitka+Small" rel="stylesheet" type="text/css"/>
     <link href="{% static 'page/navbar.css' %}" rel="stylesheet">
-    <link href="{% static 'page/mainpage.css' %}" rel="stylesheet">
+    <link href="{% static 'page/forB2BCustomer.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <title>Mainpage</title>
+    <title>forB2BCustomer</title>
   </head>
   <body>
     {% include "page/navbar.html" %}
@@ -20,7 +20,7 @@
         <div class="promoteModels">
               <p id="slogan"><b>Slogan or Short introduction here bla bla bla</b></p>
               <div class="businessModels">
-                <p class="businessCustomer"><b>For B2C Customer</b></p>
+                <p class="businessCustomer"><b>Our Brochure</b></p>
                
               </div>
         </div>
@@ -29,17 +29,20 @@
          <img class="img-fuild" src="{%static 'data_company/page/mainpage/mainpage.jpg'%}">
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-          <div class="col-md-4">Cert 1</div>
-          <div class="col-md-4">Cert 2</div>
-          <div class="col-md-4">Cert 3</div>
-      </div>
+    <div class="container-fluid Cert">
+    
+        <nav class="nav nav-pills nav-fill">
+           
+            <a class="nav-item nav-link" href="#"><span><p>Cer 1</p></span></a>
+            <a class="nav-item nav-link" href="#"><span><p>Cer 1</p></span></a>
+            <a class="nav-item nav-link" href="#"><span><p>Cer 1</p></span></a>
+        </nav>
+         
     </div>
     <div class="topProduct container-fluid">
       <div class="row">
         <div class="col-md-12">
-            <h3><b>TOP PRODUCTS</b></h3>
+            <h3><b>OUR PRODUCTS</b></h3>
         </div>
       </div>
       <div class="row mx-auto">
@@ -68,11 +71,16 @@
             </div>
         </div>
       </div>
+      <div class="row">
+          <div class="col-md-12 mx-auto">
+              <p style="text-align: center;font: normal normal normal 20px/20px Sitka Small;">- See more products -</p>
+          </div>
+      </div>
     </div>
     <div class="sale container-fluid">
             <div class="row ">
               <div class="col-md-12">
-                <h3><b>Sale</b></h3>
+                <h3><b>YOUR BUYING PROCESS</b></h3>
               </div>
             </div>
             <div class="row mx-auto">

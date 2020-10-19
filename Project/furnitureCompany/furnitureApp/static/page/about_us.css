@@ -526,7 +526,7 @@ body{
 
 	}
 	.production .productionRow{
-		padding: 80px;
+		padding:45px;
 	}
 
 	.production img{
@@ -639,8 +639,12 @@ body{
 		left: 17px;
 
 	}
+	.production{
+		position: relative;
+		top: -150px;
+	}
 	.production .productionRow{
-		padding: 100px;
+		padding: 45px;
 	}
 
 	.production img{
@@ -685,7 +689,7 @@ body{
 	
 	}
 	.materials .components{
-		padding: 30px;
+		padding: 20px;
 	}
 	.materials .cardMaterial{
 		
@@ -709,7 +713,7 @@ body{
 		letter-spacing: 0.06px;
 		color: #FBF4EA;
 		opacity: 1;
-		width: 90%;
+		
 		padding: 80px;
 		height: 100%;
 		
@@ -720,7 +724,7 @@ body{
 		letter-spacing: 1.26px;
 		color: #FBF4EA;
 		opacity: 1;
-		padding: 30px;
+		padding: 35px;
 
 		background: black;
 		border: 1px solid black;
@@ -734,7 +738,7 @@ body{
 	}	
 	.materials #para{
 		position: relative;
-		top: -180px;
+		top: -170px;
 
 		padding: 40px;
 
@@ -744,7 +748,12 @@ body{
 		letter-spacing: 0.06px;
 		color: #0F0A03;
 		opacity: 1;
-		width: 93.5%;
+		margin-right: 15px;
+		
+	}
+	.production{
+		position: relative;
+		top: -150px;
 	}
 	.production h3{
 		text-align: left;
@@ -754,14 +763,13 @@ body{
 		color: #AC7F46;
 		opacity: 1;
 		position: relative;
-		left: 31px;
-
+		left: 17px;
 		
 	}
+
 	.production .productionRow{
-		padding-right: 200px;
-		padding-left: 200px;
-		padding-bottom: 50px;
+		padding: 70px;
+
 	}
 
 	.production img{
