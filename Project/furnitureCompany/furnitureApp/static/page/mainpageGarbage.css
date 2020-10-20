@@ -1,0 +1,471 @@
+body{
+    width: 100%;
+    height: auto;
+    float: left;
+   
+}
+.menu{
+	width: 100%;
+	height: auto;
+	float: left;
+
+}
+.menuLeft{
+	width: 15%;
+	height: auto;
+	float: left;
+}
+.menuRight{
+	width: 85%;
+	height: auto;
+	float: left;
+}
+.adCompany{
+	width: 100%;
+	height: auto;
+	float: left;
+
+}
+.topProduct{
+	width: 100%;
+	float: left;
+
+}
+.sale{
+	width: 100%;
+	float: left;
+}
+.adCompany .leftAdCompany{
+	width: 33%;
+	float: left;
+
+}
+.adCompany .rightAdCompany{
+		width: 67%;
+		float: left;
+		
+}	
+/* screen < 480 is smart phone */
+@media screen and (max-width: 480px){
+
+	.leftAdCompany #slogan{
+		text-align: left;	
+
+		border: 1px #AC7F46;
+		
+	
+		padding-top: 90px;
+
+		font: normal normal normal 7px/8px Sitka Small;
+
+		color: #8e7860;
+		opacity: 1;	
+	}
+	.leftAdCompany .businessCustomer{
+		background: #AC7F46 0% 0% no-repeat padding-box;
+		border: 1px solid #AA8803;
+		opacity: 1;	
+		position: relative;
+		top: 30px;
+		margin-bottom: 4px;
+
+		text-align: center;
+		color: white;
+
+		font-size: 7px;
+	}
+
+	.rightAdCompany img{
+		width: 100%;
+		height: 200px;
+
+	}
+	.topProduct h3{
+	
+		font: normal normal normal 10px/40px Sitka Small;
+		letter-spacing: 0px;
+		color: #AC7F46;
+		opacity: 1;
+		text-align: left;
+		
+	}
+	.topProduct .productsImg{
+		text-align: center;
+		
+	}
+	.topProduct .card-title{
+
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		font: normal normal normal 10px/8px Sitka Small;
+	}
+	.topProduct img{
+		width: 100%;
+		height: 200px;
+	}
+
+
+	.sale h3{
+		text-align: left;
+		font: normal normal normal 15px/30px Sitka Small;
+		letter-spacing: 0px;
+		color: #AC7F46;
+		opacity: 1;
+	}
+
+	.sale #salePromote{
+		
+		width: 100%;
+		height: 5rem;
+		margin-bottom: 25px;
+
+	}
+	.sale .saleImgPromote{
+	
+		text-align: center;
+		
+	}
+	.sale .card-title{
+
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		font: normal normal normal 10px/8px Sitka Small;
+	}
+	.sale .saleImg {
+		width: 100%;
+		height: 200px;
+	}
+
+
+}
+/* screen < 600 is tablet */
+
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+
+
+	.leftAdCompany #slogan{
+		text-align: left;	
+
+		border: 1px #AC7F46;
+
+		padding-top: 140px;
+
+		font: normal normal normal 12px/12px Sitka Small;
+		/*font-weight: normal;*/
+		/*Add fornt sitka Small but itsn't working.*/
+		color: #8e7860;
+		opacity: 1;	
+	}
+	.leftAdCompany .businessCustomer{
+		background: #AC7F46 0% 0% no-repeat padding-box;
+		border: 1px solid #AA8803;
+		opacity: 1;	
+		position: relative;
+		top: 50px;
+		margin-bottom: 4px;
+
+		text-align: center;
+		color: white;
+		/*padding: 1px;*/
+		font-size: 12px;
+	}
+
+	.rightAdCompany img{
+		width: 100%;
+		height: 300px;
+
+	}
+	.topProduct h3{
+
+		text-align: left;
+	
+		font: normal normal normal 14px/50px Sitka Small;
+		letter-spacing: 0px;
+		color: #AC7F46;
+		opacity: 1;
+		
+	}
+	.topProduct .productsImg{
+		text-align: center;
+	}
+	.topProduct .card-title{
+
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		
+		font: normal normal normal 14px Sitka Small;
+	}
+	.topProduct img{
+		width: 100%;
+		height: 220px;
+
+
+	}
+
+
+	.sale h3{
+		text-align: left;
+		font: normal normal normal 20px/35px Sitka Small;
+		
+		letter-spacing: 0px;
+		margin-bottom: 10px;
+		color: #AC7F46;
+		opacity: 1;
+	}
+
+	.sale #salePromote{
+		text-align: center;
+		width: 100%;
+		height: 5rem;
+		margin-bottom: 25px;
+
+	}
+	.sale .card-title{
+
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		font: normal normal normal 14px Sitka Small;
+
+	}
+	.sale .saleImgPromote{
+		text-align: center;
+	}
+	.sale .saleImg {
+		width: 100%;
+
+		height: 220px;
+	}
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 768px){
+
+
+	.leftAdCompany #slogan{
+		text-align: left;	
+
+		border: 1px #AC7F46;
+
+		padding-top: 180px;
+
+		font: normal normal normal 20px/25px Sitka Small;
+		/*font-weight: normal;*/
+		/*Add fornt sitka Small but itsn't working.*/
+		color: #8e7860;
+		opacity: 1;	
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.leftAdCompany .businessCustomer{
+		background: #AC7F46 0% 0% no-repeat padding-box;
+		border: 1px solid #AA8803;
+		opacity: 1;	
+		position: relative;
+		top: 70px;
+		margin-bottom: 4px;
+
+		text-align: center;
+		color: white;
+		/*padding: 1px;*/
+		font-size: 15px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.rightAdCompany img{
+		width: 100%;
+		height: 400px;
+	}
+	.topProduct h3{
+
+		text-align: left;
+		margin-top: 25px;
+	
+		font: normal normal normal 25px/50px Sitka Small;
+		letter-spacing: 0px;
+		color: #AC7F46;
+		opacity: 1;
+		margin-left: 20px;
+		
+		
+	}
+	.topProduct .productsImg{
+		text-align: center;
+
+	}
+
+	.topProduct .card-title{
+
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+
+		font: normal normal normal 2vw/10px Sitka Small;
+		position: relative;
+		bottom: 30px;
+	}
+	.topProduct img{
+		width: 100%;
+		height: 300px;
+		padding: 20px;
+
+	}
+	.sale{
+		position: relative;
+		top: -50px;
+	}
+
+
+	.sale h3{
+		text-align: left;
+	
+		font: normal normal normal 25px/50px Sitka Small;
+
+		letter-spacing: 0px;
+		margin-bottom: 30px;
+		color: #AC7F46;
+		opacity: 1;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.sale #salePromote{
+		text-align: center;
+		width: 100%;
+		height: 8rem;
+		margin-bottom: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	.sale .card-title{
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+
+		font: normal normal normal 2vw/10px Sitka Small;
+		position: relative;
+		bottom: 70px;
+
+	}
+	.sale .saleImg {
+		width: 100%;
+		padding: 30px;
+
+		height: 320px;
+		position: relative;
+		top: -50px;
+	}
+	.sale .saleImgPromote{
+		text-align: center;
+
+	}
+}
+@media screen and (min-width: 1440px) {
+	.leftAdCompany #slogan{
+		text-align: left;	
+
+		border: 1px #AC7F46;
+
+		padding-top: 180px;
+
+		font: normal normal normal 25px/25px Sitka Small;
+		/*font-weight: normal;*/
+		/*Add fornt sitka Small but itsn't working.*/
+		color: #8e7860;
+		opacity: 1;	
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.leftAdCompany .businessCustomer{
+		background: #AC7F46 0% 0% no-repeat padding-box;
+		border: 1px solid #AA8803;
+		opacity: 1;	
+		position: relative;
+		top: 120px;
+		margin-bottom: 4px;
+
+		text-align: center;
+		color: white;
+		/*padding: 1px;*/
+		font-size: 18px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.rightAdCompany img{
+		width: 100%;
+		height: 500px;
+	}
+	.topProduct h3{
+
+		text-align: left;
+		font: normal normal normal 25px/50px Sitka Small;
+		letter-spacing: 0px;
+		color: #AC7F46;
+		opacity: 1;
+		margin-left: 20px;
+		margin-right: 20px;
+		
+	}
+
+	.topProduct .productsImg{
+		text-align: center;
+	}
+	.topProduct .card-title{
+
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		margin-right: 50px;
+		font: normal normal normal 30px/10px Sitka Small;
+	}
+	.topProduct img{
+		width: 80%;
+		height: 400px;
+
+	}
+
+
+	.sale h3{
+		text-align: left;
+	
+		font: normal normal normal 35px/50px Sitka Small;
+
+		letter-spacing: 0px;
+		margin-bottom: 30px;
+		color: #AC7F46;
+		opacity: 1;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.sale #salePromote{
+		text-align: center;
+		width: 93.5%;
+		height: 10rem;
+		margin-bottom: 25px;
+
+	}
+	.sale .saleImgPromote{
+		text-align: center;
+		
+	}
+	.sale .card-title{
+
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		margin-right: 50px;
+		font: normal normal normal 30px/10px Sitka Small;
+	}
+	.sale .saleImg {
+		width: 80%;
+		height: 400px;
+	}
+}

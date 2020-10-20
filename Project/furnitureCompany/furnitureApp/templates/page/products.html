@@ -24,15 +24,36 @@
     <title>Products</title>
   </head>
   <body>
-  	<div class="container-fluid">
-    {% include "page/navbar.html" %}
-    </div>
-    <div class="container-fluid ">
-        <div class="productsBrand container">
-                     <img class="img-fuild" src="{%static 'data_company/page/products/Banner.png'%}">
+  	{% include "page/navbar.html" %}
+   
+    <div class="productsBrand">
+        <div class="productsBrand">
+              <img class="img-fuild" src="{%static 'data_company/page/products/Banner.png'%}">
         </div>
-
     </div>
+    <div class="filter container-fluid">
+
+        <div class="filterKindOfProduct">
+            <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                  </li>
+              </ul>
+        </div>
+        <div class="filterProducts">
+              <p>123123</p>
+        </div>        
+    </div>
+    
 
 
 

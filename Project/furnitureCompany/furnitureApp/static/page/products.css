@@ -9,35 +9,87 @@ body{
 	float: left;
 
 }
-/* screen < 480 is smart phone */
-@media screen and (max-width: 480px){
+.filter{
+	width: 100%;
+	float: left;
+}
+.filter .filterKindOfProduct{
+	width: 25%;
+	float: left;
+	padding-left: 15px;
+} 
+.filter .filterProducts{
+	width: 75%;
+	float: left;
+} 
 
-/*	.materials .rightMaterials{
-		background: #AC7F46;
-		border: 1px solid #AC7F46;
-		opacity: 1;
-	}*/
+@media screen and (max-width: 400px) {
+
+
+}
+@media screen and (max-width: 575px) and (min-width: 400px){
 
 
 }
 /* screen < 600 is tablet */
 
 
-@media screen and (max-width: 768px) and (min-width: 480px){
+@media screen and (max-width: 900px) and (min-width: 576px){
+
 }
 
-@media screen and (max-width: 1440px) and (min-width: 768px){
-	.productsBrand img{
-		width: 75%;
+@media screen and (max-width: 1250px) and (min-width: 900px){
+/*	.productsBrand img{
 		float: right;
-		height: 100px;
+		margin-right: 55px;
+		width: 67%;
+
+	
+	}
+	.filter .filterKindOfProduct{
+		margin-top: 30px;
+	}
+	.filter .filterProducts{
+		margin-top: 30px;
+
+	} 
+
+*/
+
+
+
+}
+@media screen and (max-width: 1740px) and (min-width: 1250px){
+	.productsBrand img{
+		float: right;
+		margin-right: 55px;
+		width: 67%;
 		position: relative;
-		top: -40px;
+		top: -70px;
+
+	
 	}
 
 
+	.filter .card-title{
 
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		font: normal normal normal 38px/38px Sitka Small;
+;
+	}
+	.filter .filterKindOfProduct{
+		margin-top: 30px;
+	}
+	.filter .filterProducts{
+		margin-top: 30px;
+
+	} 
 
 }
-@media screen and (min-width: 1440px) {
+
+@media screen and (min-width: 1740px){
+	
+
 }
