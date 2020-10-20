@@ -49,16 +49,26 @@ body{
 	float: left;
 	width: 100%;
 }
-.leftAdCompany #slogan{
+/*.leftAdCompany #slogan{
 	margin-left: 15px;
 	margin-right: 10px;
 }
 .leftAdCompany .businessCustomer{
 	margin-left: 15px;
 	margin-right: 10px;
-}
+}*/
 /* screen < 480 is smart phone */
 @media screen and (max-width: 400px) {
+	.adCompany .leftAdCompany{
+		width: 40%;
+		float: left;
+
+	}
+	.adCompany .rightAdCompany{
+		width: 60%;
+		float: left;
+		
+	}	
 
 	.leftAdCompany #slogan{
 		text-align: left;	
@@ -66,9 +76,10 @@ body{
 		border: 1px #AC7F46;
 		
 	
-		padding-top: 90px;
+		padding-top:86px;
 
-		font: normal normal normal 10px/10px Sitka Small;
+		margin-left: 5px;
+		font: normal normal normal 6px/8px Sitka Small;
 
 		color: #8e7860;
 		opacity: 1;	
@@ -80,13 +91,13 @@ body{
 	
 		text-align: center;
 		color: white;
-
-		font-size: 10px;
+		margin-left: 5px;
+		font-size: 8px;
 	}
 
 	.rightAdCompany img{
 		width: 100%;
-		height: 200px;
+		height: 180px;
 
 	}
 	.Cert p{
@@ -100,7 +111,7 @@ body{
 		top: 5px;
 		
 		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 1px solid #AC7F46;
+		border: 5px solid #AC7F46;
 		opacity: 1;
 		margin-left: 10px;
 		margin-right: 10px;
@@ -200,7 +211,7 @@ body{
 		text-align: center;
 		color: white;
 
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.rightAdCompany img{
@@ -219,7 +230,7 @@ body{
 		top: 5px;
 		
 		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 1px solid #AC7F46;
+		border: 10px solid #AC7F46;
 		opacity: 1;
 		margin-left: 10px;
 		margin-right: 10px;
