@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'loginAPI.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'web_furniture',
         'USER': 'postgres',
         'PASSWORD':'dataservice',

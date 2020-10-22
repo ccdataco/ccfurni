@@ -18,40 +18,127 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="//db.onlinewebfonts.com/c/4cac62b9f31046456d6fa8a29b0d9462?family=Sitka+Small" rel="stylesheet" type="text/css"/>
-    <link href="{% static 'page/navbar.css' %}" rel="stylesheet">
+    <link href="{% static 'page/navbarProducts.css' %}" rel="stylesheet">
     <link href="{% static 'page/products.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>Products</title>
   </head>
   <body>
-  	{% include "page/navbar.html" %}
-   
-    <div class="productsBrand">
+  <div class="container-fluid">
+    {% include "page/navbar.html" %}
+  </div>  
+    <div class="productsBrand container-fluid" >
         <div class="productsBrand">
-              <img class="img-fuild" src="{%static 'data_company/page/products/Banner.png'%}">
+              <img  class="img-fuild" src="{%static 'data_company/page/products/Banner.png'%}">
         </div>
     </div>
     <div class="filter container-fluid">
-
         <div class="filterKindOfProduct">
             <ul class="nav flex-column">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
+                    <a class="nav-link" href="#"><h3>FILTERS</h3></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#"><p>Price</p></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#"><p>Color</p></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link disabled" href="#"><p>Style</p></a>
                   </li>
               </ul>
         </div>
         <div class="filterProducts">
-              <p>123123</p>
+            <div class="row mx-auto">
+                <div class="col-sm-4 productsImg mx-auto" >
+                    
+                    <img src="{%static 'data_company/page/mainpage/products1.jpg'%}" >
+                
+                    <div class="card-body">
+                          <h3 class="card-title">Products 1</h3>         
+                    </div>
+                </div>
+                <div class="col-sm-4 mx-auto productsImg" >
+                    
+                    <img src="{%static 'data_company/page/mainpage/product3.jpg'%}" >
+           
+                   
+                    <div class="card-body">
+                        <h3 class="card-title">Products 2</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4 mx-auto productsImg" >
+                   
+                    <img src="{%static 'data_company/page/mainpage/product2.jpg'%}" >
+                    <div class="card-body">
+                        <h3 class="card-title">Products 3</h3>            
+                    </div>
+                </div>
+            </div>
+                        <div class="row mx-auto">
+                <div class="col-sm-4 productsImg mx-auto" >
+                    
+                    <img src="{%static 'data_company/page/mainpage/products1.jpg'%}" >
+                
+                    <div class="card-body">
+                          <h3 class="card-title">Products 1</h3>         
+                    </div>
+                </div>
+                <div class="col-sm-4 mx-auto productsImg" >
+                    
+                    <img src="{%static 'data_company/page/mainpage/product3.jpg'%}" >
+           
+                   
+                    <div class="card-body">
+                        <h3 class="card-title">Products 2</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4 mx-auto productsImg" >
+                   
+                    <img src="{%static 'data_company/page/mainpage/product2.jpg'%}" >
+                    <div class="card-body">
+                        <h3 class="card-title">Products 3</h3>            
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-4 productsImg mx-auto" >
+                    
+                    <img src="{%static 'data_company/page/mainpage/products1.jpg'%}" >
+                
+                    <div class="card-body">
+                          <h3 class="card-title">Products 1</h3>         
+                    </div>
+                </div>
+                <div class="col-sm-4 mx-auto productsImg" >
+                    
+                    <img src="{%static 'data_company/page/mainpage/product3.jpg'%}" >
+           
+                   
+                    <div class="card-body">
+                        <h3 class="card-title">Products 2</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4 mx-auto productsImg" >
+                   
+                    <img src="{%static 'data_company/page/mainpage/product2.jpg'%}" >
+                    <div class="card-body">
+                        <h3 class="card-title">Products 3</h3>            
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mx-auto">
+                    <p style="text-align: center;color: #0F0A03;font: normal normal normal 20px/40px Sitka Small;">- View more -</p>
+                </div>
+            </div>
         </div>        
+    </div>
+        <div class="ourProduct container-fluid" >
+        <div class="productsBrand">
+              <img  class="img-fuild" src="{%static 'data_company/page/products/ourProduct.png'%}">
+        </div>
     </div>
     
 
