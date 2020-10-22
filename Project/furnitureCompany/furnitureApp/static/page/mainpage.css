@@ -36,12 +36,12 @@ body{
 	float: left;
 }
 .adCompany .leftAdCompany{
-	width: 33%;
-	float: left;
+		width: 35%;
+		float: left;
 
 }
 .adCompany .rightAdCompany{
-		width: 67%;
+		width: 65%;
 		float: left;
 		
 }	
@@ -160,6 +160,7 @@ body{
 }
 @media screen and (max-width: 575px) and (min-width: 400px){
 
+
 	.leftAdCompany #slogan{
 		text-align: left;	
 
@@ -168,10 +169,10 @@ body{
 	
 		padding-top: 110px;
 
-		font: normal normal normal 8px/8px Sitka Small;
+		font: normal normal normal 7.5px/8px Sitka Small;
 
 		color: #8e7860;
-		margin-left: 15px;
+		margin-left: 12px;
 		margin-right: 2px;
 		opacity: 1;	
 	}
@@ -184,7 +185,7 @@ body{
 		color: white;
 
 		font-size: 8px;
-		margin-left: 15px;
+		margin-left: 12px;
 		margin-bottom: 4px;
 
 		margin-right: 2px;
@@ -199,7 +200,7 @@ body{
 	}
 
 	.topProduct h3{
-		margin-left: 15px;
+		margin-left: 12px;
 		font: normal normal normal 15px/40px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
@@ -267,6 +268,17 @@ body{
 
 
 @media screen and (max-width: 900px) and (min-width: 576px){
+	.adCompany .leftAdCompany{
+		width: 35%;
+		float: left;
+
+	}
+	.adCompany .rightAdCompany{
+		width: 65%;
+		float: left;
+		
+	}	
+
 
 
 	.leftAdCompany #slogan{
@@ -276,7 +288,7 @@ body{
 
 		padding-top: 150px;
 
-		font: normal normal normal 15px/15px Sitka Small;
+		font: normal normal normal 12px/15px Sitka Small;
 		/*font-weight: normal;*/
 		/*Add fornt sitka Small but itsn't working.*/
 		color: #8e7860;
@@ -289,7 +301,7 @@ body{
 		border: 1px solid #AA8803;
 		opacity: 1;	
 		position: relative;
-		top: 70px;
+		top: 60px;
 		margin-bottom: 4px;
 
 		text-align: center;
@@ -305,7 +317,7 @@ body{
 	}
 	.rightAdCompany img{
 		width: 100%;
-		height: 350px;
+		height: 320px;
 	}
 	.topProduct h3{
 
@@ -396,7 +408,7 @@ body{
 
 		padding-top: 205px;
 
-		font: normal normal normal 20px/20px Sitka Small;
+		font: normal normal normal 22px/25px Sitka Small;
 		/*font-weight: normal;*/
 		/*Add fornt sitka Small but itsn't working.*/
 		color: #8e7860;
@@ -505,7 +517,7 @@ body{
 
 		padding-top: 230px;
 
-		font: normal normal normal 28px/30px Sitka Small;
+		font: normal normal normal 32px/35px Sitka Small;
 		/*font-weight: normal;*/
 		/*Add fornt sitka Small but itsn't working.*/
 		color: #8e7860;
@@ -521,7 +533,7 @@ body{
 		border: 1px solid #AA8803;
 		opacity: 1;	
 		position: relative;
-		top: 120px;
+		top: 100px;
 		margin-bottom: 4px;
 
 		text-align: center;

@@ -36,12 +36,12 @@ body{
 	float: left;
 }
 .adCompany .leftAdCompany{
-	width: 33%;
+	width: 35%;
 	float: left;
 
 }
 .adCompany .rightAdCompany{
-		width: 67%;
+		width: 65%;
 		float: left;
 		
 }	
@@ -59,6 +59,25 @@ body{
 }*/
 /* screen < 480 is smart phone */
 @media screen and (max-width: 400px) {
+	.Cert p{
+		text-align: center;
+		font: normal normal normal 7px/15px Rockwell;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+	
+	
+		
+		background: #AC7F46 0% 0% no-repeat padding-box;
+		border: 2px solid #AC7F46;
+		opacity: 1;
+		margin-left: 12px;
+		margin-right: 10px;
+		position: relative;
+		top: 15px;
+		left: 15px;
+
+	}
 	.adCompany .leftAdCompany{
 		width: 40%;
 		float: left;
@@ -76,13 +95,13 @@ body{
 		border: 1px #AC7F46;
 		
 	
-		padding-top:86px;
-
-		margin-left: 5px;
-		font: normal normal normal 6px/8px Sitka Small;
+		padding-top: 65px;
+		font: normal normal normal 7px/10px Sitka Small;
 
 		color: #8e7860;
-		opacity: 1;	
+		margin-left: 12px;
+		
+		opacity: 1;
 	}
 	.leftAdCompany .businessCustomer{
 		background: #AC7F46 0% 0% no-repeat padding-box;
@@ -91,41 +110,29 @@ body{
 	
 		text-align: center;
 		color: white;
-		margin-left: 5px;
-		font-size: 8px;
+
+		font-size:7px;
+		margin-left: 12px;
+		margin-bottom: 4px;
+
+		
+		position: relative;
+		top: -8px;
 	}
 
 	.rightAdCompany img{
 		width: 100%;
-		height: 180px;
-
-	}
-	.Cert p{
-		text-align: center;
-		font: normal normal normal 15px/15px Rockwell;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
-	
-		position: relative;
-		top: 5px;
-		
-		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 5px solid #AC7F46;
-		opacity: 1;
-		margin-left: 10px;
-		margin-right: 10px;
-		position: relative;
-		top: 15px;
+		height: 140px;
 
 	}
 
 	.topProduct h3{
-	
-		font: normal normal normal 12px/40px Sitka Small;
+		margin-left: 15px;
+		font: normal normal normal 12px/35px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
 		opacity: 1;
+		margin-left: 5px;
 		text-align: left;
 		
 	}
@@ -139,25 +146,20 @@ body{
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
-		font: normal normal normal 15px/8px Sitka Small;
+		font: normal normal normal 12px/2px Sitka Small;
 	}
 	.topProduct img{
 		width: 100%;
 		height: 220px;
 		
-		
 
-	}
-	.topProduct .seeMoreProduct p{
-		text-align: center;
-	
-		font: normal normal normal 15px/20px Sitka Small;
 	}
 
 
 	.sale h3{
+		margin-left: 15px;
 		text-align: left;
-		font: normal normal normal 15px/30px Sitka Small;
+		font: normal normal normal 12px/35px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
 		opacity: 1;
@@ -180,12 +182,13 @@ body{
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
-		font: normal normal normal 15px/8px Sitka Small;
+		font: normal normal normal 15px/2px Sitka Small;
 	}
 	.sale .saleImg {
 		width: 100%;
-		height: 220px;
+		height: 200px;
 	}
+
 
 }
 @media screen and (max-width: 575px) and (min-width: 400px){
@@ -196,22 +199,30 @@ body{
 		border: 1px #AC7F46;
 		
 	
-		padding-top: 90px;
+		padding-top: 100px;
 
-		font: normal normal normal 10px/10px Sitka Small;
+		font: normal normal normal 7.5px/10px Sitka Small;
 
 		color: #8e7860;
+		margin-left: 12px;
+		margin-right: 2px;
 		opacity: 1;	
 	}
 	.leftAdCompany .businessCustomer{
 		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 1px solid #AA8803;
+		border: 3px solid #AA8803;
 		opacity: 1;	
 	
 		text-align: center;
 		color: white;
 
-		font-size: 12px;
+		font-size: 8px;
+		margin-left: 12px;
+		margin-bottom: 4px;
+
+		margin-right: 2px;
+		position: relative;
+		top: -5px;
 	}
 
 	.rightAdCompany img{
@@ -221,7 +232,7 @@ body{
 	}
 	.Cert p{
 		text-align: center;
-		font: normal normal normal 15px/15px Rockwell;
+		font: normal normal normal 12px/15px Rockwell;
 		letter-spacing: 0px;
 		color: #FFFFFF;
 		opacity: 1;
@@ -230,17 +241,24 @@ body{
 		top: 5px;
 		
 		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 10px solid #AC7F46;
+		border: 5px solid #AC7F46;
 		opacity: 1;
 		margin-left: 10px;
-		margin-right: 10px;
+		margin-right: 20px;
 		position: relative;
-		top: 15px;
+		top: 12px;
+		left: 15px;
+
+	}
+
+	.rightAdCompany img{
+		width: 100%;
+		height: 220px;
 
 	}
 
 	.topProduct h3{
-	
+		margin-left: 12px;
 		font: normal normal normal 15px/40px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
@@ -258,24 +276,19 @@ body{
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
-		font: normal normal normal 15px/8px Sitka Small;
+		font: normal normal normal 15px/2px Sitka Small;
 	}
 	.topProduct img{
 		width: 100%;
 		height: 270px;
-		
+		padding: 15px;
 		
 
 	}
-	.topProduct .seeMoreProduct p{
-		text-align: center;
-	
-		font: normal normal normal 20px/20px Sitka Small;
-	}
-
 
 
 	.sale h3{
+		margin-left: 15px;
 		text-align: left;
 		font: normal normal normal 15px/30px Sitka Small;
 		letter-spacing: 0px;
@@ -300,12 +313,13 @@ body{
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
-		font: normal normal normal 15px/8px Sitka Small;
+		font: normal normal normal 15px/2px Sitka Small;
 	}
 	.sale .saleImg {
 		width: 100%;
 		height: 200px;
 	}
+
 
 
 }
@@ -322,12 +336,12 @@ body{
 
 		padding-top: 150px;
 
-		font: normal normal normal 15px/15px Sitka Small;
+		font: normal normal normal 12px/15px Sitka Small;
 		/*font-weight: normal;*/
 		/*Add fornt sitka Small but itsn't working.*/
 		color: #8e7860;
 		opacity: 1;	
-		margin-left: 15px;
+		margin-left: 12px;
 		margin-right: 10px;
 	}
 	.leftAdCompany .businessCustomer{
@@ -343,7 +357,7 @@ body{
 		color: white;
 		/*padding: 1px;*/
 		font-size: 15px;
-		margin-left: 15px;
+		margin-left: 12px;
 		margin-right: 10px;
 	}
 	
@@ -358,13 +372,14 @@ body{
 		top: 5px;
 		left: 35px;
 		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 8px solid #AC7F46;
+		border: 10px solid #AC7F46;
 		opacity: 1;
 
-
-		margin-right: 45px;
+		margin-left: 25px;
+		margin-right: 25px;
 		position: relative;
 		top: 15px;
+		left: 15px;
 
 	}
 
@@ -373,7 +388,7 @@ body{
 		height: 300px;
 	}
 	.topProduct h3{
-		margin-left: 15px;
+		margin-left: 12px;
 
 		text-align: left;
 	
@@ -418,7 +433,7 @@ body{
 		margin-bottom: 10px;
 		color: #AC7F46;
 		opacity: 1;
-		margin-left: 15px;
+		margin-left: 12px;
 	}
 
 	.sale #salePromote{
@@ -496,13 +511,14 @@ body{
 		top: 5px;
 		left: 30px;
 		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 8px solid #AC7F46;
+		border: 12px solid #AC7F46;
 		opacity: 1;
+		margin-left: 55px;
 
-
-		margin-right: 45px;
+		margin-right: 55px;
 		position: relative;
 		top: 15px;
+		left: 20px;
 
 	}
 
@@ -638,18 +654,16 @@ body{
 		letter-spacing: 0px;
 		color: #FFFFFF;
 		opacity: 1;
-		
-		position: relative;
-		top: 5px;
-		left: 30px;
+
 		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 8px solid #AC7F46;
+		border: 15px solid #AC7F46;
 		opacity: 1;
 
-
-		margin-right: 45px;
+		margin-left: 88px;
+		margin-right: 80px;
 		position: relative;
 		top: 15px;
+		left: 20px;
 
 	}
 	.topProduct h3{
@@ -765,23 +779,23 @@ body{
 
 	.Cert p{
 		text-align: center;
-		font: normal normal normal 20px/20px Rockwell;
+		font: normal normal normal 38px/20px Rockwell;
 		letter-spacing: 0px;
 		color: #FFFFFF;
 		opacity: 1;
 		
 		position: relative;
 		top: 5px;
-		left: 30px;
+		left: 50px;
 		background: #AC7F46 0% 0% no-repeat padding-box;
-		border: 8px solid #AC7F46;
+		border: 20px solid #AC7F46;
 		opacity: 1;
 
 
-		margin-right: 45px;
-		position: relative;
-		top: 15px;
 
+		margin-right: 150px;
+		margin-left: 150px
+		
 	}
 
 	.rightAdCompany img{
