@@ -24,14 +24,18 @@
     <title>Products</title>
   </head>
   <body>
-
-    {% include "page/navbar.html" %}
-  
-    <div class="productsBrand container-fluid" >
-        <div class="productsBrand">
-              <img  class="img-fuild" src="{%static 'data_company/page/products/Banner.png'%}">
-        </div>
+    <div class="container-fluid">
+        {% include "page/navbar.html" %}
     </div>
+ <!--  
+    <div class="productsBrand container-fluid" >
+        <div class="row mx-auto">
+            <div class="col-md-12 mx-auto">
+              <img  class="img-fuild" src="{%static 'data_company/page/products/Banner.png'%}">
+            </div>
+        </div>
+        
+    </div> -->
     <div class="filter container-fluid">
         <div class="filterKindOfProduct">
             <ul class="nav flex-column">
@@ -51,6 +55,13 @@
         </div>
         <div class="filterProducts">
             <div class="row mx-auto">
+                <div class="col-sm-12 productsBrand mx-auto" >
+                    
+                       <img  class="img-fuild" src="{%static 'data_company/page/products/Banner.png'%}">
+                </div>
+
+            </div>
+            <div class="row mx-auto component">
                 <div class="col-sm-4 productsImg mx-auto" >
                     
                     <img src="{%static 'data_company/page/mainpage/products1.jpg'%}" >
@@ -76,7 +87,7 @@
                     </div>
                 </div>
             </div>
-                        <div class="row mx-auto">
+            <div class="row mx-auto component">
                 <div class="col-sm-4 productsImg mx-auto" >
                     
                     <img src="{%static 'data_company/page/mainpage/products1.jpg'%}" >
@@ -102,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mx-auto">
+            <div class="row mx-auto component">
                 <div class="col-sm-4 productsImg mx-auto" >
                     
                     <img src="{%static 'data_company/page/mainpage/products1.jpg'%}" >
@@ -128,18 +139,24 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row viewMore">
                 <div class="col-md-12 mx-auto">
-                    <p style="text-align: center;color: #0F0A03;font: normal normal normal 20px/40px Sitka Small;">- View more -</p>
+                    <p>- View more -</p>
                 </div>
+            </div>
+            <div class="row mx-auto ourProduct">
+                <div class="col-sm-12 productsBrand mx-auto" >
+                    
+                       <img  class="img-fuild" src="{%static 'data_company/page/products/ourProduct.png'%}">
+                </div>
+
             </div>
         </div>        
     </div>
-        <div class="ourProduct container-fluid" >
-        <div class="productsBrand">
-              <img  class="img-fuild" src="{%static 'data_company/page/products/ourProduct.png'%}">
-        </div>
+    <div class="footer">
+        
     </div>
+     
     
 
 

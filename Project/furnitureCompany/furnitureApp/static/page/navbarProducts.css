@@ -34,7 +34,7 @@
 @media screen and (max-width: 575px) and (min-width: 400px){
 	.navbar-brand img{
 		width: 100px;
-		height: 100px;
+		height: 80px;
 		position: relative;
 		
 	
@@ -55,25 +55,36 @@
 
 
 @media screen and (max-width: 900px) and (min-width: 576px){
+	.navbar{
 
+	}
 	.navbar-brand img{
-		width: 120px;
-		height: 120px;
+		width: 18vw;
+		height: 18vw;
 		position: relative;
+		top: 20px;
 		
 	
 	}
 	.navbar .keywords{
 
     	color: #707070;
-    	font-size: 25px;
+    	font-size: 2.5vw;
     	text-align: left;
         letter-spacing: 0px;
     	opacity: 1;
     	font-family: Rockwell;
     	letter-spacing: 0;
-    	padding: 12px;
+    	padding: 2.5vw;
+    	position: relative;
+    	right: -3vw;
+    	
+    	position: relative;
+		top: 5px;
 	}
+
+
+
 
 
 }
@@ -85,8 +96,8 @@
 
 	}
 	.navbar-brand img{
-		width:20vw;
-		height:20vw;
+		width:15vw;
+		height:15vw;
 		position: relative;
 		
 	
@@ -102,6 +113,11 @@
     	letter-spacing: 0;
     	padding: 3vw;
     	width: 100%;
+		position: relative;
+    	right: -3vw;
+    	
+    	position: relative;
+		top: -20px;
 
 	}
 
@@ -110,9 +126,8 @@
 @media screen and (max-width: 1740px) and (min-width: 1250px){
 
 	.navbar-brand img{
-		width: 250px;
-		height: 250px;
-
+		width:15vw;
+		height:15vw;
 	
 	}
 	.navbar .keywords{
@@ -128,7 +143,8 @@
 
     	width: 100%;
     	position: relative;
-    	right: -1.3vw;
+    	right: -3vw;
+    	top: -4vh;
     	
 	}
 
@@ -147,7 +163,7 @@
 	.navbar .keywords{
 
     	color: #707070;
-    	font-size: 2.7vw;
+    	font-size: 2.5vw;
     	text-align: left;
         letter-spacing: 0px;
     	opacity: 1;
@@ -157,8 +173,8 @@
 
     	width: 100%;
     	position: relative;
-    	right: -2.5vw;
-    
+    	right: -3.5vw;
+    	    
 	}
 
 

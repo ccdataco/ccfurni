@@ -106,7 +106,7 @@ body{
 	}
 	.topProduct .productsImg{
 		text-align: center;
-		margin-left: 10px;
+		margin-left: 5px;
 		
 	}
 	.topProduct .card-title{
@@ -114,11 +114,11 @@ body{
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
-		font: normal normal normal 12px/2px Sitka Small;
+		font: normal normal normal 5px/2px Sitka Small;
 	}
 	.topProduct img{
 		width: 100%;
-		height: 220px;
+		height: 100px;
 		
 
 	}
@@ -222,8 +222,7 @@ body{
 	}
 	.topProduct img{
 		width: 100%;
-		height: 270px;
-		padding: 15px;
+		height: 15vh;
 		
 
 	}
@@ -344,7 +343,7 @@ body{
 	.topProduct img{
 		width: 100%;
 		padding: 5px;
-		height: 220px;
+		height: 20vh;
 
 	}
 	.topProduct .seeMoreProduct p{
