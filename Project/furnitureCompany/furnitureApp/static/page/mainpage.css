@@ -94,8 +94,8 @@ body{
 
 	}
 
-	.topProduct h3{
-		margin-left: 15px;
+	.topProduct .titleProducts{
+		
 		font: normal normal normal 12px/35px Sitka Small;
 		letter-spacing: 0px;
 		color: #AC7F46;
@@ -106,15 +106,18 @@ body{
 	}
 	.topProduct .productsImg{
 		text-align: center;
-		margin-left: 5px;
+	
+		max-width: 100%;
 		
 	}
-	.topProduct .card-title{
 
-		text-align: center;
+	.topProduct p{
+
+		
 		border: 1px #AC7F46;
 		color:#AC7F46;
-		font: normal normal normal 5px/2px Sitka Small;
+		font: normal normal normal 2vw Sitka Small;
+		margin-top: 1vh;
 	}
 	.topProduct img{
 		width: 100%;
@@ -123,9 +126,12 @@ body{
 
 	}
 
-
-	.sale h3{
-		margin-left: 15px;
+	.sale{
+		position: relative;
+		top: -20px;
+	}
+	.sale .titleProducts{
+		margin-left: 5px;
 		text-align: left;
 		font: normal normal normal 12px/35px Sitka Small;
 		letter-spacing: 0px;
@@ -136,7 +142,7 @@ body{
 	.sale #salePromote{
 		
 		width: 100%;
-		height: 5rem;
+		height: 6vh;
 		margin-bottom: 25px;
 
 	}
@@ -145,16 +151,17 @@ body{
 		text-align: center;
 		
 	}
-	.sale .card-title{
+	.sale p{
 
-		text-align: center;
+		
 		border: 1px #AC7F46;
 		color:#AC7F46;
-		font: normal normal normal 15px/2px Sitka Small;
+		font: normal normal normal 2vw Sitka Small;
+		margin-top: 1vh;
 	}
 	.sale .saleImg {
 		width: 100%;
-		height: 200px;
+		height: 100px;
 	}
 
 }
@@ -167,7 +174,7 @@ body{
 		border: 1px #AC7F46;
 		
 	
-		padding-top: 110px;
+		padding-top: 95px;
 
 		font: normal normal normal 7.5px/8px Sitka Small;
 
@@ -190,12 +197,12 @@ body{
 
 		margin-right: 2px;
 		position: relative;
-		top: 25px;
+		top: 30px;
 	}
 
 	.rightAdCompany img{
 		width: 100%;
-		height: 220px;
+		height: 200px;
 
 	}
 
@@ -210,20 +217,20 @@ body{
 	}
 	.topProduct .productsImg{
 		text-align: center;
-		margin-left: 10px;
 		
 	}
-	.topProduct .card-title{
+	.topProduct p{
 
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
 		font: normal normal normal 15px/2px Sitka Small;
+
+		margin-top: 1.5vh;
 	}
 	.topProduct img{
 		width: 100%;
-		height: 15vh;
-		
+		height: 30vw;		
 
 	}
 
@@ -240,7 +247,7 @@ body{
 	.sale #salePromote{
 		
 		width: 100%;
-		height: 5rem;
+		height: 12vw;
 		margin-bottom: 25px;
 
 	}
@@ -249,16 +256,19 @@ body{
 		text-align: center;
 		
 	}
-	.sale .card-title{
+	.sale p{
 
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
 		font: normal normal normal 15px/2px Sitka Small;
+
+		margin-top: 1.5vh;
 	}
 	.sale .saleImg {
 		width: 100%;
-		height: 200px;
+		height: 30vw;
+		
 	}
 
 
@@ -332,8 +342,8 @@ body{
 	.topProduct .productsImg{
 		text-align: center;
 	}
-	.topProduct .card-title{
-
+	.topProduct p{
+		margin-top: 1.5vh;
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
@@ -343,7 +353,7 @@ body{
 	.topProduct img{
 		width: 100%;
 		padding: 5px;
-		height: 20vh;
+		height: 35vw;
 
 	}
 	.topProduct .seeMoreProduct p{
@@ -377,8 +387,8 @@ body{
 
 
 	}
-	.sale .card-title{
-
+	.sale p{
+		margin-top: 1.5vh;
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
@@ -392,7 +402,7 @@ body{
 		width: 100%;
 		padding: 2px;
 
-		height: 220px;
+		height: 35vw;
 	}
 
 }
@@ -450,17 +460,17 @@ body{
 	.topProduct .productsImg{
 		text-align: center;
 	}
-	.topProduct .card-title{
+	.topProduct p{
 
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
-	
+		margin-top: 1.5vh;
 		font: normal normal normal 25px/8px Sitka Small;
 	}
 	.topProduct img{
 		width: 100%;
-		height: 300px;
+		height: 35vw;
 		padding: 12px;
 
 	}
@@ -486,11 +496,12 @@ body{
 		padding: 12px;
 
 	}
-	.sale .card-title{
+	.sale p{
 
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
+		margin-top: 1.5vh;
 		font: normal normal normal 25px/8px Sitka Small;
 ;
 	}
@@ -499,9 +510,7 @@ body{
 	}
 	.sale .saleImg {
 		width: 100%;
-		padding: 2px;
-
-		height: 300px;
+		height: 35vw;
 		padding: 12px;
 	}
 
@@ -561,8 +570,8 @@ body{
 	.topProduct .productsImg{
 		text-align: center;
 	}
-	.topProduct .card-title{
-
+	.topProduct p{
+		margin-top: 1.5vh;
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
@@ -571,7 +580,7 @@ body{
 	}
 	.topProduct img{
 		width: 100%;
-		height: 450px;
+		height: 35vw;
 		padding: 15px;
 
 	}
@@ -599,13 +608,13 @@ body{
 	.sale #salePromote{
 		text-align: center;
 		width: 100%;
-		height: 10rem;
+		height: 15vw;;
 		padding: 15px;
 		margin-bottom: 45px;
 
 	}
-	.sale .card-title{
-
+	.sale p{
+		margin-top: 1.5vh;
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
@@ -619,7 +628,7 @@ body{
 		width: 100%;
 		padding: 15px;
 
-		height: 450px;
+		height: 35vw;
 	}
 
 }
@@ -675,7 +684,7 @@ body{
 	.topProduct .productsImg{
 		text-align: center;
 	}
-	.topProduct .card-title{
+	.topProduct p{
 
 		text-align: center;
 		border: 1px #AC7F46;
@@ -685,7 +694,7 @@ body{
 	}
 	.topProduct img{
 		width: 100%;
-		height: 500px;
+		height: 35vw;
 		padding: 20px;
 
 	}
@@ -718,7 +727,7 @@ body{
 		padding: 20px;
 
 	}
-	.sale .card-title{
+	.sale p{
 
 		text-align: center;
 		border: 1px #AC7F46;
@@ -732,7 +741,7 @@ body{
 	.sale .saleImg {
 		width: 100%;
 
-		height: 500px;
+		height: 35vw;
 		padding: 20px;
 	}
 

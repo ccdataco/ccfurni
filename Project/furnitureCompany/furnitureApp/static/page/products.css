@@ -24,10 +24,198 @@ body{
 } 
 
 @media screen and (max-width: 400px) {
+	.filter{
+		position: relative;
+		top: 10px;
+	}
+	.filter .filterKindOfProduct{
+		width: 25%;
+		float: left;
+		position: relative;
+		left: -6px;
+	
+	} 
+	.filter .filterProducts{
+		width: 75%;
+		float: left;
+
+	} 
+	
+
+	.filter .productsBrand img{
+		float: right;
+		
+		width: 100%;
+		position: relative;
+		top: -20px;
+		height: 12vw;
+
+	}
+	.filter .filterKindOfProduct{
+		position: relative;
+		top:4vw;
+
+
+
+
+	}
+
+
+	.filter .filterProducts p{
+		margin-top: 1vh;
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		font: normal normal normal 2vw/5px Sitka Small;
+	}
+
+
+	.filter .filterKindOfProduct h3{
+
+		font: normal normal normal 12px/20px Sitka Small;
+		letter-spacing: 0px;
+		color: #AC7F46;
+		opacity: 1;
+		
+		text-align: left;
+		
+	}
+	.filter .filterKindOfProduct p{
+		
+		font: normal normal normal 10px/8px Sitka Small;
+		letter-spacing: 0px;
+		color: black;
+		opacity: 1;
+		
+		text-align: left;
+		
+	}
+
+	.filterProducts{
+		width: 100%;
+
+	}
+	.filterProducts .productsImg{
+		text-align: center;
+		
+		
+
+		
+	}
+
+	.filterProducts img{
+		width: 100%;
+		
+		height: 20vw;
+	}
+	.filter .viewMore{
+		text-align: center;
+		color: #0F0A03;
+		font: normal normal normal 2vw/2vh Sitka Small;
+	}
+
+	.filterProducts .ourProduct{
+		position: relative;
+		top: 20px;
+	}
 
 
 }
 @media screen and (max-width: 575px) and (min-width: 400px){
+	.filter{
+		position: relative;
+		top: 10px;
+	}
+	.filter .filterKindOfProduct{
+		width: 20%;
+		float: left;
+		position: relative;
+		left: -6px;
+	
+	} 
+	.filter .filterProducts{
+		width: 80%;
+		float: left;
+
+	} 
+	
+
+	.filter .productsBrand img{
+		float: right;
+		
+		width: 100%;
+		position: relative;
+		top: -40px;
+		height: 12vw;
+
+	}
+	.filter .filterKindOfProduct{
+		position: relative;
+		top:8vw;
+
+
+
+
+	}
+
+
+	.filter .filterProducts p{
+		margin-top: 1vh;
+		text-align: center;
+		border: 1px #AC7F46;
+		color:#AC7F46;
+		font: normal normal normal 2vw/5px Sitka Small;
+	}
+
+
+	.filter .filterKindOfProduct h3{
+
+		font: normal normal normal 15px/15px Sitka Small;
+		letter-spacing: 0px;
+		color: #AC7F46;
+		opacity: 1;
+		
+		text-align: left;
+		
+	}
+	.filter .filterKindOfProduct p{
+		
+		font: normal normal normal 15px/8px Sitka Small;
+		letter-spacing: 0px;
+		color: black;
+		opacity: 1;
+		
+		text-align: left;
+		
+	}
+
+	.filterProducts{
+		width: 100%;
+
+	}
+	.filterProducts .productsImg{
+		text-align: center;
+		
+		
+
+		
+	}
+
+	.filterProducts img{
+		width: 100%;
+		
+		height: 25vw;
+	}
+	.filter .viewMore{
+		text-align: center;
+		color: #0F0A03;
+		font: normal normal normal 2vw/2vh Sitka Small;
+	}
+
+	.filterProducts .ourProduct{
+		position: relative;
+		top: 20px;
+	}
 
 
 }
@@ -72,8 +260,8 @@ body{
 	}
 
 
-	.filter .card-title{
-
+	.filter .filterProducts p{
+		margin-top: 1vh;
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
@@ -202,8 +390,8 @@ body{
 
 		
 	}
-	.filterProducts .card-title{
-
+	.filterProducts .filterProducts p{
+		margin-top: 1vh;
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
@@ -300,8 +488,8 @@ body{
 
 		
 	}
-	.filterProducts .card-title{
-
+	.filterProducts .filterProducts p{
+		margin-top: 1vh;
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
@@ -348,7 +536,7 @@ body{
 		width: 100%;
 		position: relative;
 		top: -70px;
-		height: 150px;
+		height: 170px;
 
 	}
 	.filter .component{
@@ -399,8 +587,8 @@ body{
 
 		
 	}
-	.filterProducts .card-title{
-
+	.filterProducts .filterProducts p{
+		margin-top: 1vh;
 		text-align: center;
 		border: 1px #AC7F46;
 		color:#AC7F46;
